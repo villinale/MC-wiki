@@ -1,4 +1,4 @@
-.body{
+.body_main{
 	background-image: url(../icon/background.png);
     background-repeat:no-repeat;/*图片适应窗口大小，这里设置的是不进行平铺*/
     background-attachment: fixed;/*图片相对于浏览器固定,这里设置背景图片固定，不随内容滚动*/
@@ -27,4 +27,34 @@
     margin: 0;
     background-color: #fff;     /* 覆盖插件里圆圈的颜色*/
 }
+
+/*顶栏hover颜色*/
+.navbar-fixed-top li a:hover{
+	color: #fff !important;
+	background: rgb(91, 85, 105) !important;
+}
+
+/*主页边框自定义*/
+
+.list-group-item-info{
+	color: #432412;
+	font-size: 20px
+}
+
+.list-group-head-pic{
+    background-image: url(../img/div_back.png);
+    background-origin: border-box;/*从边框区域显示*/
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+/* 取消背景边框 */
+.list-group-item{
+    background-color: #e8c48e;
+    /* border: rgba(0, 0, 0, 0); */
+    border-color: rgba(67, 36, 18, 0.5);
+    border-width: 1px;
+}
+
 
