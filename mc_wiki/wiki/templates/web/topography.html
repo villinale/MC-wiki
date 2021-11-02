@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,intial-scale=1.0" />
+		<title>Minecraft WIKI</title>
+		<link rel="shortcut icon" href="/static/icon/favicon.ico" />
+        <!-- 引入Bootstrap -->
+		<link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- 自定义css -->
+		<link href="/static/css/mc_wiki.css" rel="stylesheet" />
+        <!-- 引入jQuery -->
+		<script src="/static/js/jquery.min.js"></script>
+        <!-- 自定义js脚本 -->
+        <script src="/static/js/mc_wiki.js"></script>
+		<script src="/static/js/bootstrap.min.js"></script>
+	</head>
+
+    <body class="body_main">
+        <!-- 导航栏 -->
+
+
+
+        <nav  class="nav nav-tabs navbar-fixed-top" style="background-color: gray;">
+            <li><a><img src="/static/icon/Minecraft_Core-Logo.png" style="height: 25px;"></a></li>
+            <div class = "col-md-2"></div>
+            <li><a style="color: white;" href="/">
+				<img src="/static/icon/首页.png" style="height: 25px;">首页</a></li>
+
+            <li><a style="color: white;">
+				<img src="/static/icon/公告.png" style="height: 25px;">公告</a></li>
+
+            <li><a style="color: white;">
+				<img src="/static/icon/生物.png" style="height: 25px;">生物</a></li>
+
+            <li><a style="color: white;" href="./topography">
+				<img src="/static/icon/地形.ico" style="height: 25px;">地形</a></li>
+
+            <li><a style="color: white;" href="./mc_item">
+				<img src="/static/icon/物品.png" style="height: 25px;">物品</a></li>
+
+            <li><a style="color: white;">
+				<img src="/static/icon/攻略.png" style="height: 25px;">攻略</a></li>
+
+            <li class="pull-right"><a><input placeholder="在本WIKI中搜索..." type="text"/></a></li>
+            <li class="pull-right"><a href="#" class="glyphicon glyphicon-search"></a></li>
+        </nav >
+
+
+
+
+
+
+
+
+
+<div style="height: 50px;">
+			<!-- 占位 -->
+		</div>
+        <div class="container wy container-1" style="background-color: rgba(255, 255, 255, 0.5); height: 192px;">
+            <div style="height: 12px;"><!-- 占位 --></div>
+			<!-- 轮播 -->
+			<div id="myCarousel" class="carousel slide" data-interval="3000">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active"><img src="/static/img/img-dh1.png" alt="First slide"></div>
+					<div class="item"><img src="/static/img/img-dh2.png" alt="Second slide"></div>
+					<div class="item"><img src="/static/img/img-dh3.png" alt="Second slide"></div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel" role="button" data-s lide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href= "#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+        <div style="height: 50px;">
+            <!-- // 空的div，动态设置高度为fixed -->
+        </div><!-- // 生物群落页导言 -->
+		<div class="container wy container-2" style="background-color:rgba(255, 255, 255, 0.5); height: 250px;">
+			<h2>生物群系<h2>
+			<p><font size="4"><img src="/static/img/Topo-header-1.jpg" style="height : 60px;">如果你不知道什么叫作“生物群系”，我可以告诉你，它是游戏中用于设置何种地表（沙子？还是草？），是下雨还是下雪，长什么树，以及允许何种动物生成的气候区。<font></p>
+			<p align="right">——Jens Bergensten</p>
+	   </div>
+		<div class="container wy container-4" style="width:1920;">
+
+
+		</div>
+  </body>
+</html>

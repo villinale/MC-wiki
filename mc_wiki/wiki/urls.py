@@ -20,8 +20,16 @@ from .views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^$', main_interface, name='main'),
+    re_path(r'^topography$', topography, name='topography'),
     re_path(r'^mc_item$', item_interface, name='item'),
+    # 四种物品，有空会合并一下
     re_path(r'^mc_item/weapon/(?P<item_id>\d+)/$', item_weapon, name='weapon'),
+    re_path(r'^mc_item/decorate/(?P<item_id>\d+)/$', item_decorate, name='decorate'),
+    re_path(r'^mc_item/block/(?P<item_id>\d+)/$', item_block, name='block'),
+    re_path(r'^mc_item/nature/(?P<item_id>\d+)/$', item_nature, name='nature'),
 
-    # url(r'^topics/(?P<topic_id>\d+)/$', views.topic, name='topic'),
+    # 错误处理
+    re_path(r'^default/(?P<type>[\s\S]*)$', default_solve, name='default_solve'),
+
+
 ]
