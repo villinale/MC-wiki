@@ -1,0 +1,290 @@
+.body{
+	background-image: url(../img/body-img.png);
+	background-attachment: fixed;
+}
+#scroll {
+	position:fixed;
+	top:300px;
+	right:100px;
+}
+.scrollItem {
+	width:70px;
+	height:70px;
+	background-color: white;
+	border:#000 1px solid;
+	cursor:pointer; 
+	text-align:center;
+	padding-top: 20px;
+}
+.navbar{
+	background: white;
+	border-bottom: 1px solid black;
+	font-size: 16px !important;
+	letter-spacing: 6px;
+}
+.navbar li a,.navbar .navbar-brand{
+	color: #BDBDBD !important;
+}
+.navbar li a:hover{
+	color: #fff !important;
+	background: #000 !important;
+}
+.navbar li.active a{
+	color: #000 !important;
+	background: #fff !important;
+}
+.navdiv{
+	background: white;
+	border-top: 1px solid black;
+	border-bottom: 1px solid #CCCCCC;
+}
+.navdiv2{
+	background: white;
+	border-top: 1px solid black;
+}
+.navdiv-size{
+	width: 120px;
+	height: 55px;
+	font-size: 18px;
+	color: #000000;
+	border-right: 1px solid #CCCCCC;
+}
+.navdiv-size2{
+	width: 180px;
+	height: 55px;
+	font-size: 18px;
+	color: #000000;
+	border-right: 1px solid #CCCCCC;
+}
+.navdiv-size3{
+	width: 180px;
+	height: 55px;
+	font-size: 18px;
+	color: #000000;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+.d5 input, .d5 button {
+  outline: none;
+  background: transparent;
+}
+.d5 input {
+  width: 268px;
+  height: 55px;
+  padding-left: 15px;
+  border: none;
+}
+.d5 button {
+  border: none;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  cursor: pointer;
+}
+.d5 button:before {
+  font-size: 20px;
+  color: #000;
+}
+.d5 input:hover {
+  background-color:rgba(0,200,255,0.1);
+}
+.pl-input{
+	height: 100px;
+	width: 900px;
+	text-indent: 20px;
+}
+.an-input{
+	height: 100px;
+	width: 100px;
+	background-color: #000000;
+	color: white;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.dropdown-toggle{
+	color: #fff;
+	background: #555 !important;
+}
+.dropdown-toggle2{
+	color: black;
+	background: white !important;
+}
+.dropdown-menu li a{
+	color: #000 !important;
+}
+.dropdown-menu li a:hover{
+	background: royalblue !important;
+}
+.carousel-caption h3{
+	color: #fff !important;
+}
+.container-1{
+	padding:0px 30px 45px 30px;
+}
+.container-2{
+	padding:80px 30px 20px 30px;
+}
+.list-group-item-info{
+	background-color: #5E5E5E;
+	color: white;
+	font-size: 20px
+}
+.red{
+	color: red;
+}
+.black{
+	color: black;
+}
+.green{
+	color: green;
+}
+.list-group a:hover{
+	color: royalblue;
+}
+.nav-logo{
+	margin-left: 60px;
+}
+.nav-col{
+	margin-right: 60px;
+}
+.wy{
+	background-color: white;
+}
+.button{
+	background-color: white;
+	color: #000;
+	border: #ccc solid 1px;
+	height: 45px;
+	width: 100px;
+	margin: 5px 5px;
+}
+.button2{
+	background-color: white;
+	color: rgb(0,182,255);
+	border: rgb(0,182,255) solid 1px;
+	height: 45px;
+	width: 100px;
+	margin: 5px 5px;
+}
+.button:hover,.button2:hover{
+	background-color: rgb(0,182,255);
+	color: white;
+}
+.zt{
+	font-size: 20px;
+	margin:0 10px 10px 10px;
+	font-family: "微软雅黑";
+}
+.xzt{
+	font-size: 15px;
+	margin:10px 10px 10px 10px;
+	font-family: "微软雅黑";
+}
+.dzt{
+	font-size: 60px;
+	margin:10px 10px 10px 10px;
+	font-family: "微软雅黑";
+}
+.footer{
+	padding: 50px 0px 20px 0px;
+	margin: 0px;
+}
+.img{
+	margin: 0px 10px 20px 10px;
+}
+.br{
+	margin-bottom: 300px;
+}
+.dl{
+	margin-bottom: 300px;
+	margin-top: 80px;
+}
+.tab{
+	font-size: 15px;
+	padding: 30px 0 0 0;
+}
+.tab-text{
+	margin-top: 7px;
+	text-align: right;
+}
+.label-1{
+	margin: 5px 0px;
+	padding-top: 20px;
+}
+.label-zt{
+	color: #5E5E5E;
+}
+.btn-login{
+	background-color: royalblue;
+	color: white;
+	border: #FFFFFF solid 1px;
+	width: 180px;
+	height: 45px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.btn-register{
+	background-color: white;
+	color: black;
+	border: #000000 solid 1px;
+	width: 180px;
+	height: 45px;
+	margin-right: 80px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.btn-get{
+	background-color: royalblue;
+	color: white;
+	border: #FFFFFF solid 1px;
+	width: 180px;
+	height: 35px;
+	margin-left: 80px;
+	font-size: 20px;
+}
+.nr{
+	margin-left: 300px;
+}
+.el-input_inner{
+	height: 40px;
+	width: 100px;
+}
+.input-group{
+	margin-left: 35px;
+}
+.ts{
+	background-color:skyblue;
+	border: royalblue solid 1px;
+	color: royalblue;
+	height: 40px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.ul{
+	padding-bottom: 15px;
+}
+.modal-content{
+	background-color: white;
+}
+th{
+	background-color: #BDBDBD;
+	color: #000000;
+	text-align: center;
+	border-right: 1px black solid;
+	padding: 5px;
+}
+tbody{
+	border: 1px black solid;
+}
+tr{
+	border-top: 1px black solid;
+}
+td{
+	border-right: 1px black solid;
+	padding: 5px;
+}

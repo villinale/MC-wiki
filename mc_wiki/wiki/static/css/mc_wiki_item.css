@@ -1,0 +1,109 @@
+.body_item{
+    margin:0px;
+    width:1280px;
+    height: 660px;
+    min-height: 600px;
+    min-width: 1200px;
+	background-image: url(../icon/item_background.png);
+    background-size: 100%;
+    background-repeat:no-repeat;/*图片适应窗口大小，这里设置的是不进行平铺*/
+    background-origin: border-box;/*从边框区域显示*/
+    background-attachment: fixed;/*图片相对于浏览器固定,这里设置背景图片固定，不随内容滚动*/
+    background-size:cover;/*指定图片大小，此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小*/
+}
+
+.navbar-fixed-top{
+    height: 48px;
+    min-width: 1024px;
+}
+/* 物品页面部分 */
+/* 左侧方块 */
+.Sidebar{
+    height: 90px;
+    width: 92px;
+    background-size:cover;
+}
+
+/* 建筑 */
+.Sidebar_block{
+    background-image: url(../icon/block_base.png);
+}
+.Sidebar_block:hover,.Sidebar_block:active, .Sidebar_block.active{
+    background-image: url(../icon/block_base1.png);
+}
+
+/* 左侧装饰 */
+.Sidebar_bed{
+    background-image: url(../icon/zhuangshi_base.png);
+}
+.Sidebar_bed:hover,.Sidebar_bed:active, .Sidebar_bed.active{
+    background-image: url(../icon/zhuangshi_base1.png);
+}
+
+/* 左侧武器 */
+.Sidebar_weapon{
+    background-image: url(../icon/zhuangbei_base.png);
+}
+.Sidebar_weapon:hover, .Sidebar_weapon:active, .Sidebar_weapon.active{
+    background-image: url(../icon/zhuangbei_base1.png);
+}
+
+/* 左侧自然 */
+.Sidebar_nature{
+    background-image: url(../icon/nature_base.png);
+}
+.Sidebar_nature:hover, .Sidebar_nature:active, .Sidebar_nature.active{
+    background-image: url(../icon/nature_base1.png);
+}
+
+/* 背景图片 */
+.all_item_background{
+    float: left;
+    left: 0px;
+    background-image: url(../img/item_background.png);
+    width: 520px;
+    height:600px;
+    background-size:cover;/*指定图片大小，此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小*/
+}
+
+
+/* 仅一个物品 */
+.item_sin{
+    float: left;
+    top:5px;
+    left: 5px;
+    background-color: #8a8a8a;
+    height: 80px;
+    width: 80px;
+    border-color: black;
+    background-size:cover;
+}
+
+.item_sin:hover,.item_sin:active{
+    background-color: #6aac43;
+}
+
+/* 右侧内容页 */
+.all_item_content{
+    width: 500px;
+    height: 560px;
+    background-color: #5d5d5d;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+
+/* 显示介绍 */
+.item_introduct_show{
+    float: left;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    frameborder: 0;
+    top:10px;
+    left:15px;
+    float: left;
+    width: 505px;
+    height: 560px;
+}
+
+

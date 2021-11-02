@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <title>Minecraft WIKI</title>
+    <link rel="shortcut icon" href="/static/icon/favicon.ico" />
+    <!-- 引入Bootstrap -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- 自定义css -->
+    <link href="/static/css/mc_wiki.css" rel="stylesheet" />
+    <link href="/static/css/mc_wiki_item.css" rel="stylesheet" />
+</head>
+
+<body class="body_item" style="overflow-x: auto;overflow-y: auto;">
+    <!-- 导航栏 -->
+    <nav class="nav nav-tabs navbar-default navbar-fixed-top" style="background-color: gray;">
+        <li>
+            <a><img src="/static/icon/Minecraft_Core-Logo.png" style="height: 25px;"></a>
+        </li>
+        <div class="col-md-2"></div>
+        <nav class="nav nav-tabs navbar-fixed-top" style="background-color: gray;">
+            <li>
+                <a><img src="/static/icon/Minecraft_Core-Logo.png" style="height: 25px;"></a>
+            </li>
+            <div class="col-md-2"></div>
+            <li>
+                <a style="color: white;" href="/">
+                    <img src="/static/icon/首页.png" style="height: 25px;">首页</a>
+            </li>
+
+            <li>
+                <a style="color: white;">
+                    <img src="/static/icon/公告.png" style="height: 25px;">公告</a>
+            </li>
+
+            <li>
+                <a style="color: white;">
+                    <img src="/static/icon/生物.png" style="height: 25px;">生物</a>
+            </li>
+
+            <li>
+                <a style="color: white;">
+                    <img src="/static/icon/地形.ico" style="height: 25px;">地形</a>
+            </li>
+
+            <li>
+                <a style="color: white;" href="/mc_item.html">
+                    <img src="/static/icon/物品.png" style="height: 25px;">物品</a>
+            </li>
+
+            <li>
+                <a style="color: white;">
+                    <img src="/static/icon/攻略.png" style="height: 25px;">攻略</a>
+            </li>
+
+            <li class="pull-right">
+                <a><input placeholder="在本WIKI中搜索..." type="text" /></a>
+            </li>
+            <li class="pull-right">
+                <a href="#" class="glyphicon glyphicon-search"></a>
+            </li>
+        </nav>
+        <li class="pull-right">
+            <a><input placeholder="在本WIKI中搜索..." type="text" /></a>
+        </li>
+        <li class="pull-right">
+            <a href="#" class="glyphicon glyphicon-search"></a>
+        </li>
+    </nav>
+    <div style="height: 50px; min-width:100%;">
+        <!-- 占位 -->
+    </div>
+    <!-- 侧边栏1 -->
+    <div class="container-fluid">
+        <!-- 左侧导航栏 -->
+        <div class="col-md-1" style="float: left;">
+            <!-- 侧边栏标签页 -->
+            <ul class="nav nav-pills nav-stacked">
+                <!-- 侧边栏选项 -->
+                <li>
+                    <a id="block" href="#" class="Sidebar Sidebar_block" onclick="spawn_item(all_item_show,this)"></a>
+                </li>
+                <li>
+                    <a id="decorate" href="#" class="Sidebar Sidebar_bed" onclick="spawn_item(all_item_show,this)"></a>
+                </li>
+                <li>
+                    <a id="weapon" href="#" class="Sidebar Sidebar_weapon" onclick="spawn_item(all_item_show,this)"></a>
+                </li>
+                <li>
+                    <a id="nature" href="#" class="Sidebar Sidebar_nature" onclick="spawn_item(all_item_show,this)"></a>
+                </li>
+                <!-- <li><a href="#">Messages</a></li> -->
+            </ul>
+        </div>
+        <!-- 中间内容页 -->
+        <div class="col-md-6 all_item_background">
+            <div style="height: 10px;"></div>
+            <div id="all_item_show" class="all_item_content"></div>
+        </div>
+        <!-- 右侧详细说明 -->
+        <div class="col-md-5 all_item_background" style="background-image: url(/static/img/item_instruction_back.png);width: 550px;">
+            <iframe class="item_introduct_show" name="item_introduce" id="item_introduce" src="/static/icon/生物.png">
+                    浏览器版本过低，请使用最新版谷歌浏览器
+                </iframe>
+        </div>
+    </div>
+    <!-- 自定义js脚本 -->
+    <script src="/static/js/mc_wiki.js"></script>
+    <!-- 引入jQuery -->
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+</body>
+
+</html>
