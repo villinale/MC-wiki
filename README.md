@@ -1,8 +1,15 @@
 # MC-wiki
-HTML文件存放处：mc_wiki/wiki/templates
+### 文件路径说明：
 
-图片，js，css静态文件存放处：mc_wiki/wiki/static 
+  HTML文件存放处：mc_wiki/wiki/templates
 
-路由定义：mc_wiki/wiki/urls.py
+  图片，js，css静态文件存放处：mc_wiki/wiki/static 
 
-逻辑实现：mc_wiki/wiki/views.py
+  路由定义：mc_wiki/wiki/urls.py
+
+  逻辑实现：mc_wiki/wiki/views.py
+  
+###  脚本运行指令：
+  进入目录mc_wiki/mc_wiki/后
+  
+  终端输入：python manage.py runserver
