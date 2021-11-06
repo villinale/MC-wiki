@@ -57,4 +57,29 @@
     border-width: 1px;
 }
 
+/* 下拉按钮样式 */
+.dropbtn{
+    font-size:13px;
+    padding:10px;
+    border:none;
+    background-color:#BF8D5C;
+    cursor:pointer;
+}
 
+/* 下拉菜单内容，设置为隐藏 */
+.dropdown-content{
+    min-width:150px;
+    background-color:#BF8D5C;
+    position:absolute;
+    display:none;
+    box-shadow:0px 8px 15px 0px #BF8D5C;
+}
+
+ /* 折叠按钮样式 */
+ .collapsebtn{
+     font-size:13px;
+     padding:10px;
+     border:none;
+     background-color:#BF8D5C;
+     cursor:pointer;
+ }
