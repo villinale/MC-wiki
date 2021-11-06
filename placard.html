@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,intial-scale=1.0" />
+		<title>Minecraft WIKI</title>
+		<link rel="shortcut icon" href="/icon/favicon.ico" />
+        <!-- 引入Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+        <!-- 自定义css -->
+		<link href="css/mc_wiki.css" rel="stylesheet" />
+        <!-- 引入jQuery -->
+		<script src="js/jquery.min.js"></script>
+        <!-- 自定义js脚本 -->
+        <script src="js/mc_wiki.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+
+	<body class="body_main">
+        <!-- 导航栏 -->
+        <nav  class="nav nav-tabs navbar-fixed-top" style="background-color: gray;">
+            <li><a><img src="./icon/Minecraft_Core-Logo.png" style="height: 25px;"></a></li>
+            <div class = "col-md-2"></div>
+            <li><a style="color: white;" href="main.html">
+				<img src="./icon/首页.png" style="height: 25px;">首页</a></li>
+
+            <li><a style="color: white;" href="placard.html">
+				<img src="./icon/公告.png" style="height: 25px;">公告</a></li>
+
+            <li><a style="color: white;" href="biology.html">
+				<img src="./icon/生物.png" style="height: 25px;">生物</a></li>
+
+            <li><a style="color: white;" href="topography.html">
+				<img src="./icon/地形.ico" style="height: 25px;">地形</a></li>
+
+            <li><a style="color: white;" href="mc_item.html">
+				<img src="./icon/物品.png" style="height: 25px;">物品</a></li>
+
+            <li><a style="color: white;">
+				<img src="./icon/攻略.png" style="height: 25px;">攻略</a></li>
+
+            <li class="pull-right"><a><input placeholder="在本WIKI中搜索..." type="text"/></a></li>
+            <li class="pull-right"><a href="#" class="glyphicon glyphicon-search"></a></li>
+        </nav >
+        <!-- 内容页 -->
+        <!-- 轮播 -->
+
+		<div style="height: 50px;">
+			<!-- 占位 -->
+		</div>
+        <div class="container wy container-1" style="background-color: rgba(255, 255, 255, 0.5); height: 192px;">
+            <div style="height: 12px;"><!-- 占位 --></div>
+			<!-- 轮播 -->
+			<div id="myCarousel" class="carousel slide" data-interval="3000">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active"><img src="img/img-dh1.png" alt="First slide"></div>
+					<div class="item"><img src="img/img-dh2.png" alt="Second slide"></div>
+					<div class="item"><img src="img/img-dh3.png" alt="Second slide"></div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div> 
+		</div>
+        <div style="height: 1px;">
+            <!-- // 空的div，动态设置高度为fixed -->
+        </div>
+		<!--  下方内容页-->
+        <div class="container wy br" style="background-color: rgba(255, 255, 255, 0.5);">
+			<!-- 左 -->
+			<div class="col-md-3" >
+				<div style="height: 12px;"><!-- 占位 --></div>
+				<ul class="list-group div-ul1">
+					<li class="list-group-item list-group-item-info list-group-head-pic">
+						<img src="./icon/items/book_enchanted.png" style="height: 20px;">&nbsp最近更新</li>
+					<li class="list-group-item"><a href="#" class="red">MC1.1 快照版发布</a></li>
+					<li class="list-group-item"><a href="#" class="red">MC1.1 快照版发布</a></li>
+					<li class="list-group-item"><a href="#" class="green">MC1.1 快照版发布</a></li>
+					<li class="list-group-item"><a href="#" class="green">MC1.1 快照版发布</a></li>
+					<li class="list-group-item"><a href="#" class="black">MC1.1 快照版发布</a></li>
+					<li class="list-group-item"><a href="huodong.html" class="black">查看更多...</a></li>
+				</ul>
+			</div>
+            <!-- 中间内容 -->
+			<div class="col-md-6">
+				<br />
+				<div id="Placard">
+					<ul class="list-group div-ul1">
+						<li class="list-group-item list-group-item-info">
+							<img src="./icon/公告.png" style="height: 25px;">&nbspMinecraft 一周新闻资讯 10.25~10.31</li>
+							
+							<div class="list-group-item" id="新生物">
+								<h4 ><strong>新生物？</strong></h4>
+								<div align="center">
+									<img src="./img/placard/MushroomOstrich.png" style="height: 200px;">
+								</div>
+								<div class="text-left">
+								<br />
+									<div>
+										<p>有人同Kingbdogz介绍了一种自己设计的，可以加入《我的世界》的新生物——<strong>蘑菇鸵鸟</strong>（MushroomOstrich），这种生物是一种棕色大型蘑菇的变异生物，它们不会吃掉玩家，但会被动自卫。它们没有视觉，但拥有敏锐的嗅觉。它们生成在真菌平原上，它们的食物是一种茄子型的寄生虫。当蘑菇鸵鸟睡觉时，它会把身体埋在地下，露出蘑菇头，看上去像是一只普通的大型棕色蘑菇。
+										<br />Kingbdogz对此新生物建议表示非常棒，无论是模型、纹理、生物机制、还是生物加入后的生态平衡和生物平衡做都非常好。</p>
+									</div>
+								</div>
+							</div>
+							
+							<div  class="list-group-item" id="新物品">
+								<h4 ><strong>新物品？</strong></h4>
+								<div align="center">
+									<img src="./img/placard/CulkFlagon.png" style="height: 200px;">
+								</div>
+								<div class="text-left">
+								<br />
+									<div>
+										<p>同样是一个建议，<strong>潜声道具</strong>（Sculk Flagon）是由骨块和深板岩制作而成的，可以用灵魂沙和灵魂土充能，充能后可以给玩家带来与探索深邃洞穴城市相关的特殊效果，比如5分钟不会被各种Sculk检测到，比如它会让所有的潜声植物进入静默的状态？
+										<br />但Deep Dark过度强大地挑战，会削弱它对新玩家的吸引力，或许应该增加一些有趣的辅助性道具？然而，Kingbdogz仅仅只是对材质纹理表达了赞许，所以这个思路应该不会被采纳，理论上Sculk不会再增加新的方块了。</p>
+									</div>
+								</div>
+							</div>
+							
+							<div  class="list-group-item" id="乐高">
+								<h4 ><strong>半年时间完成的Minecraft乐高积木项目</strong></h4>
+								<div align="center">
+									<img src="./img/placard/Lego.png" style="height: 250px;">
+								</div>
+								<div class="text-left">
+								<br />
+									<div>
+										<p>mc玩家经过断断续续半年的时间，终于完成了一个乐高的积木项目。这是一个基于《我的世界》1.18-1.19的乐高积木。受到了当前Minecraft快照的启发。整个项目有很多的小细节，例如鞘翅飞行在半空中的史蒂夫，在和山脉上的骷髅战斗。</p>
+									</div>
+								</div>
+							</div>
+							
+							<div  class="list-group-item" id="粉丝的信">
+								<h4 ><strong>粉丝的信♥</strong></h4>
+								<div align="center">
+									<img src="./img/placard/FanLetter.png" style="height: 300px;">
+								</div>
+								<div class="text-left">
+								<br />
+									<div>
+										<p>一位Minecraft玩家SwiechSan问到了一件全世界《我的世界》玩家都想知道的事情：“Hi bdgoz，我不知道你能不能回答我，但我真的很想给Minecraft总部寄一封信，（一封粉丝信，不是一封情书），请问我可以寄么？”令人意外的是，Kingbdogz看到了这条推文，回复：“我相信，粉丝来信是绝对没问题的。”</p>
+									</div>
+								</div>
+							</div>
+					</ul>
+					<br />
+				</div>
+			</div>
+            <!-- 右 -->
+			<div class="col-md-3">
+				<div style="height: 12px;"><!-- 占位 --></div>
+				<ul class="list-group div-ul1">
+					<li class="list-group-item list-group-item-info list-group-head-pic">
+						<img src="./icon/公告.png" style="height: 20px;">&nbsp&nbsp 最新活动</li>
+					
+					<li class="list-group-item"><a href="#新生物">新生物？</a><span class="pull-right">10.25~10.31</span></li>
+					<li class="list-group-item"><a href="#新物品">新物品？</a><span class="pull-right">10.25~10.31</span></li>
+					<li class="list-group-item"><a href="#乐高">半年时间完成的Minecraft乐高积木项目</a><span class="pull-right">10.25~10.31</span></li>
+					<li class="list-group-item"><a href="placard.html" class="black">查看更多...</a></li>
+				</ul>
+				<ul class="list-group div-ul1 text-center">
+					<li class="list-group-item list-group-item-info">关于我们</li>
+					<li class="list-group-item">
+						<img src="img/logo2.png" class="img" style="height: 250px;">
+						<p>　这里放github</p>
+						<p>制作者名单</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </body>
+</html>
