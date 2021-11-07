@@ -5,7 +5,7 @@
 
  我们简单做了MC游戏的生物、地形、物品和最新消息的内容，当然也贴心的放置了更丰富的攻略网站和官方网址。
  
- 所以如果你想看更丰富的内容，很抱歉我们无法满足你，可以试试[这里](https://minecraft.fandom.com/zh/wiki/%E4%B8%BB%E4%B8%96%E7%95%8C)或[那里](https://www.mcmod.cn/)。orz...
+ 所以如果你想看更丰富的内容，很抱歉我们无法满足你，可以试试[这里](https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki)或[那里](https://www.mcmod.cn/)。orz...
 
 ### 如果你想看懂代码：
 
